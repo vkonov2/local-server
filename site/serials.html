@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>Serials</title>
+   </head>
+   <body>
+      <link rel="stylesheet" href="https://bootstraptema.ru/plugins/2015/bootstrap3/bootstrap.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <br><br><br>
+
+      <style>
+      body{background:url(images/bf-serials.jpg)}
+
+      #tiger{
+       position: relative;
+       display: inline-block;
+      }
+
+      #tiger:hover:after {
+      content: attr(data-name);
+      position: relative;
+      left: 0;
+      bottom: 0;
+      background: rgba(0,0,0,.0);
+      color: #FFD700;
+      text-align: left;
+      /*font-family: cursive;*/
+      font-size: 20px;
+      padding: 2px 0;
+      width: 100%;
+      }
+
+      #main {
+       padding: 20px;
+      -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+       -ms-border-radius: 4px;
+       -o-border-radius: 4px;
+       border-radius: 4px;
+       border-bottom: 4px solid #ddd;
+      }
+      #real-estates-detail #author img {
+       -webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+       -ms-border-radius: 100%;
+       -o-border-radius: 100%;
+       border-radius: 100%;
+       border: 5px solid #ecf0f1;
+       margin-bottom: 10px;
+      }
+      #real-estates-detail .sosmed-author i.fa {
+       width: 30px;
+       height: 30px;
+       border: 2px solid #bdc3c7;
+       color: #bdc3c7;
+       padding-top: 6px;
+       margin-top: 10px;
+      }
+      .panel-default .panel-heading {
+       background-color: #fff;
+      }
+      #real-estates-detail .slides li img {
+       height: 450px;
+      }
+      </style>
+
+      <div class="container">
+      <div id="main">
+      <nav class="navbar static-top">
+            <input value="ДОМОЙ" type="button" class="btn btn-primary" onclick="location.href='site.html'"/>
+      <!-- <a class="btn btn-primary" href="#">Войти</a> -->
+            </div>
+      </nav>
+
+       <div class="row" id="real-estates-detail">
+       <div class="col-lg-4 col-md-4 col-xs-12">
+       <div class="panel panel-default">
+       <div class="panel-heading">
+       <header class="panel-title">
+       <div class="text-center">
+       <strong><b>СЕРИАЛ</b></strong>
+       </div>
+       </header>
+       </div>
+       <div class="panel-body">
+       <div class="text-center" id="author">
+       <img src="images/robot.jpg">
+       <h3>Мистер Робот</h3>
+       <small class="label label-warning">Netflix</small>
+       <p>«Mr. Robot»</p>
+       <p class="sosmed-author">
+       <a onclick="location.href='time.html'" href="#"><i class="fa fa-facebook" title="Facebook"></i></a>
+       <a onclick="location.href='time.html'" href="#"><i class="fa fa-twitter" title="Twitter"></i></a>
+       <a onclick="location.href='time.html'" href="#"><i class="fa fa-google-plus" title="Google Plus"></i></a>
+       <a onclick="location.href='time.html'" href="#"><i class="fa fa-linkedin" title="Linkedin"></i></a>
+       </p>
+       </div>
+       </div>
+       </div>
+       </div>
+       <div class="col-lg-8 col-md-8 col-xs-12">
+       <div class="panel">
+       <div class="panel-body">
+       <ul id="myTab" class="nav nav-pills">
+       <li class="active"><a href="#detail" data-toggle="tab">О сериале</a></li>
+       <li class="active"><a href="#actors" data-toggle="tab">Актеры</a></li>
+       <li class="active"><a href="#plot" data-toggle="tab">Обзор сюжета</a></li>
+       <li class="active"><a href="#prize" data-toggle="tab">Награды</a></li>
+       </ul>
+       <div id="myTabContent" class="tab-content">
+      <hr>
+       <div class="tab-pane fade active in" id="detail">
+       <h4>Краткая информация:</h4>
+       <table class="table table-th-block">
+       <tbody>
+       <tr><td class="active">Год производства:</td><td>2015 (4 сезона)</td></tr>
+       <tr><td class="active">Страна:</td><td>США</td></tr>
+       <tr><td class="active">Жанр:</td><td>триллер, драма, криминал, ...</td></tr>
+       <tr><td class="active">Слоган:</td><td>«I'm crazy. This is crazy. I'm crazy.»</td></tr>
+       <tr><td class="active">Режиссер:</td><td>Сэм Эсмейл, Джим МакКэй, Триша Брок, ...</td></tr>
+       <tr><td class="active">Сценарий:</td><td>Сэм Эсмейл, Randolph Leon, Адам Пенн, ...</td></tr>
+       <tr><td class="active">Продюсер:</td><td>Сэм Эсмейл, Кайл Брэдстрит, Кристиан Слэйтер, ...</td></tr>
+       <tr><td class="active">Оператор:</td><td>Мак Квейл</td></tr>
+       <tr><td class="active">Композитор:</td><td>Сэм Эсмейл, Кайл Брэдстрит, Кристиан Слэйтер, ...</td></tr>
+       <tr><td class="active">Художник:</td><td>Анастасия Уайт, Стивен Беатрис, Мэттью Мунн, ...</td></tr>
+       <tr><td class="active">Монтаж:</td><td>Франклин Петерсон, Джастин Крон, John Petaja, ...</td></tr>
+       <tr><td class="active">Премьера в Росcии:</td><td>6 февраля 2017</td></tr>
+       <tr><td class="active">Премьера в мире:</td><td>17 марта 2015, ...</td></tr>
+       <tr><td class="active">Возраст:</td><td>18+</td></tr>
+       <tr><td class="active">Время:</td><td>49 мин.</td></tr>
+       <tr><td class="active">Рейтинг пользователя:</td><td><i class="fa fa-star" style="color:red"></i> <i class="fa fa-star" style="color:red"></i> <i class="fa fa-star" style="color:red"></i> <i class="fa fa-star" style="color:red"></i> <i class="fa fa-star" style="color:red"></i> <i class="fa fa-star" style="color:red"></i> <i class="fa fa-star" style="color:red"></i> <i class="fa fa-star" style="color:red"></i> 8/10</td></tr>
+       <tr><td class="active">Страница на сайте Кинопоиск:</td><td><a href="https://www.kinopoisk.ru/series/859908/" target="_blank">Кинопоиск - Мистер Робот</a></td></tr>
+      </tbody>
+       </table>
+       </div>
+
+      <div id="actors"><h4>В главных ролях:</h4></div>
+       <table class="table table-th-block">
+       <tbody>
+       <tr><td class="active"><p><div id = "tiger" data-name = "Кинопоиск"><a href="https://www.kinopoisk.ru/name/1089891/">Рами Малек</p></div></td><td class="active"><p><div id = "tiger" data-name = "Кинопоиск"><a href="https://www.kinopoisk.ru/name/6653/">Кристиан Слэйтер</p></div></td><td class="active"><p><div id = "tiger" data-name = "Кинопоиск"><a href="https://www.kinopoisk.ru/name/1780177/">Карли Чаикин</p></div></td><td class="active"><p><div id = "tiger" data-name = "Кинопоиск"><a href="https://www.kinopoisk.ru/name/459396/">Мартин Вальстрём</p></div></td></tr>
+       <tr><td class="active"><img height="150" width="120" src="images/rami.jpg"></td><td class="active"><img height="150" width="120" src="images/christ.jpg"></td><td class="active"><img height="150" width="120" src="images/carly.jpg"></td><td class="active"><img height="150" width="120" src="images/martin.jpg"></td></tr>
+      </tbody>
+       </table>
+       <table class="table table-th-block">
+       <tbody>
+       <tr><td class="active"><p><div id = "tiger" data-name = "Кинопоиск"><a href="https://www.kinopoisk.ru/name/82660/">Портия Даблдэй</p></div></td><td class="active"><p><div id = "tiger" data-name = "Кинопоиск"><a href="https://www.kinopoisk.ru/name/22753/">Майкл Кристофер</p></div></td><td class="active"><p><div id = "tiger" data-name = "Кинопоиск"><a href="https://www.kinopoisk.ru/name/1816809/">Грэйс Гаммер</p></div></td><td class="active"><p><div id = "tiger" data-name = "Кинопоиск"><a href="https://www.kinopoisk.ru/name/42387/">Б.Д. Вонг</p></div></td></tr>
+       <tr><td class="active"><img height="150" width="120" src="images/portia.jpg"></td><td class="active"><img height="150" width="120" src="images/michael.jpg"></td><td class="active"><img height="150" width="120" src="images/greys.jpg"></td><td class="active"><img height="150" width="120" src="images/vong.jpg"></td></tr>
+      </tbody>
+       </table>
+       <div id = "tiger" data-name = "Кинопоиск">Все актеры: <a href="https://www.kinopoisk.ru/film/859908/cast/" target="_blank">Кинопоиск - Актеры</a></div>
+       </div>
+       <div id="plot"><h4>Обзор сюжета:</h4></div>
+
+       <div>История молодого программиста Эллиота, страдающего социофобией и решившего, что единственный приемлемый для него способ взаимодействия с людьми — это профессия хакера. Таким образом, он быстро оказывается в том самом месте, где пересекаются интересы его работодателя — фирмы, занимающейся кибербезопасностью, — и подпольных организаций, которые пытаются его завербовать с целью обрушения самых могучих американских корпораций.</div>
+
+       <div id="prize"><h4>Награды:</h4></div>
+       <table class="table table-th-block">
+       <tbody>
+       <tr><td class="active">Золотой глобус, 2020 год</td><td>Лучшая мужская роль на ТВ (драма) (Рами Малек)</td></tr>
+       <tr><td class="active">Золотой глобус, 2018 год</td><td>Лучший актёр второго плана мини-сериала или фильма на ТВ (Кристиан Слэйтер)</td></tr>
+       <tr><td class="active">Золотой глобус, 2017 год</td><td>Лучшая мужская роль на ТВ (драма) (Рами Малек), Лучший актёр второго плана мини-сериала или фильма на ТВ (Кристиан Слэйтер)</td></tr>
+       <tr><td class="active">Премия канала «MTV», 2017 год</td><td>Лучшая борьба с системой</td></tr>
+       <tr><td class="active">Сатурн, 2017 год</td><td>Лучший телесериал в жанрах экшн/триллер, Лучшее DVD/BluRay-издание телесериала</td></tr>
+       <tr><td class="active">Эмми, 2017 год</td><td>Лучший приглашенный актёр в драматическом сериале (Б.Д. Вонг)</td></tr>
+       <tr><td class="active">Премия Гильдии актеров, 2017 год</td><td>Лучший актер драматического сериала (Рами Малек)</td></tr>
+       <tr><td class="active">Золотой глобус, 2016 год</td><td>Лучший актёр второго плана мини-сериала или фильма на ТВ ( Кристиан Слэйтер), Лучший драматический сериал, Лучшая мужская роль на ТВ (драма) (Рами Малек)</td></tr>
+       <tr><td class="active">Эмми, 2016 год</td><td>ЛЛучшая мужская роль в драматическом сериале ( Рами Малек ), Лучший драматический сериал</td></tr>
+       <tr><td class="active">Премия Гильдии актеров, 2016 год</td><td>Лучший актер драматического сериала (Рами Малек)</td></tr>
+       
+       <tr><td class="active">Подробное описание наград:</td><td><a href="https://www.kinopoisk.ru/film/859908/awards/" target="_blank">Кинопоиск - Награды</a></td></tr>
+      </tbody>
+       </table>
+ </div>
+       </div>
+       </div>
+       </div>
+       </div>
+       </div>
+       </div>
+      </div>
+
+      <div>
+      </div>
+
+      </div><!-- /.main -->
+      </div><!-- /.container -->
+   </body>
+</html>
